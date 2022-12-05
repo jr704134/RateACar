@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "RateACar",
-    "slug": "RateACar",
+    "slug": "rateacarjr704134",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/iconCar.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashCar.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -28,6 +28,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }
