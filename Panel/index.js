@@ -17,7 +17,7 @@ export default class Panel extends Component {
   };
 
   toggle = () => {
-    LayoutAnimation.spring();
+    LayoutAnimation.easeInEaseOut();
     this.setState({
       height: this.state.height === null ? 0 : null,
     })
@@ -54,5 +54,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     paddingTop: 15,
     paddingBottom: 15,
+    fontSize: 20
   }
 });
